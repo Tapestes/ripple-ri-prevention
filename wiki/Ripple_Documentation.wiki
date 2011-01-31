@@ -21,50 +21,55 @@ When the pilot opens the app, it immediately determines what airport the pilot i
 
 Each slider has three positions: "Not Set," Hold Short, and Cleared to Cross.  The slider is initially presented in the "Not Set" position and the background of the slider grayed out to indicate no instruction for that runway has been input into the device.  Sliders were chosen to minimize the likelihood of inadvertently setting the runway status.  The red slider mimics the runway sign and runway holding position markings.  Clearance to cross or hold short for each runway may be set manually via the slider or automatically via speech recognition.  
 
-Three Slider States
+*Three Slider States*
 
 	Underneath the sliders a .pdf of the taxiway diagram for the airport is shown.  
  
 http://lh4.ggpht.com/_bluhmLJHCwM/TUc-yCLgUKI/AAAAAAAAABw/Wa_2qp6VXDo/s288/image004.jpg
-Taxi Diagram
+
+*Taxi Diagram*
 
 	Directly under the map .pdf, is the taxi path information display.  It is a text display that, should the pilot choose to enter the full taxi path, provides an easily accessed visual reminder.  If the pilot elects not to enter the taxi path, hold short and cleared to cross may be summarized here.  In order to enter the taxi path, the user touches the taxi path icon which will bring up a custom keyboard, discussed shortly.  It has not been determined by this team if the taxi path should use full words (Alpha) are just the taxiway letters (A).  There may also be some symbology that pilots use when writing down these instructions that may be useful.  
 
  
 http://lh5.ggpht.com/_bluhmLJHCwM/TUc-u-cSPSI/AAAAAAAAABY/rUmX1SDyOos/s288/image005.jpg
-Menu Bar at Bottom of Display
+
+*Menu Bar at Bottom of Display*
 
 
 	Pressing the Taxi Path button presents the user with a specialized keyboard  It should, as shown in the image below, include the following special keys: "hold short of", "cleared to cross", along with a set of runway keys.  In addition, as numerals and letters will both be used frequently, unlike the standard iPhone keyboard, a row of numerals will always be present across the top of the keyboard.  The information entered here is summarized in the taxi path display described earlier.
 
  
 http://lh6.ggpht.com/_bluhmLJHCwM/TUc-xWS5rmI/AAAAAAAAABs/m0CNL2hnP7E/s400/image006.jpg
-Taxi Path Keyboard
+
+*Taxi Path Keyboard*
 
 	When the user presses the “i” button on the menu bar, he or she is presented with the option to change system settings, much of which, as seen below, revolve around the reminders provided by the app.  References to "Name" refer to the device making an aural announcement of the upcoming runway name.  The runway tones similarly advise the pilot he or she is approaching a runway, but do so with a tone rather than with a voice.
 
  
 http://lh4.ggpht.com/_bluhmLJHCwM/TUc-wZRLO_I/AAAAAAAAABk/gxRbPq60bbQ/s400/image007.jpg
-App Settings
+
+*App Settings*
 
 
 	Should the user choose to do so, he or she can collapse the runway sliders, providing an unobstructed view of the taxi diagram.  This is done by pressing the “close” or “open button, located just beneath the sliders or hold short summary information.   The expanded and collapsed states are shown in the image below.
  
 http://lh3.ggpht.com/_bluhmLJHCwM/TUc-w3ZgVbI/AAAAAAAAABo/RRbtSOO1teE/s400/image008.jpg
-Runway Sliders Expanded and Collapsed
+
+*Runway Sliders Expanded and Collapsed*
 
 	When the runway sliders are collapsed, a summary of set hold shorts is displayed as seen in the “collapsed” section of the above image.  The large hold short reminder will display only one hold short instruction at a time.  If multiple hold short instructions are entered, the user will be able to either scroll via finger swipe or by pressing the left right arrows.  If there are multiple “hold shorts” entered, the hold short reminder that is displayed is the one the system deems most relevant.  The most relevant is determined by a) intersection of the current aircraft heading with the runway and b) proximity to the runway.  If a hold short reminder/advisory is issued by the system, that hold short instruction is then displayed.  If the user changes the hold short reminder by scrolling, then from that point on the hold short instruction displayed is the one chosen by the user except in cases where a reminder/advisory is being issued.
 
  
-Hold Short Reminder
+*Hold Short Reminder*
 
-Title Bar
+*Title Bar*
 
 	The title bar, show in the image below, displays the aircraft tail number in the top left and the identified airport in the top right.  In the middle of the title bar is a headphones icon.  Tapping the headphones icon disables speech recognition.  When speech recognition is enabled and speech from the pilot is detected, instead of the icon, the wave forms are displayed providing the user feedback that speech is being received.  Regardless of the mode (Edit or Display), the title bar is always present.
 
  
 http://lh3.ggpht.com/_bluhmLJHCwM/TUc-vgJtGkI/AAAAAAAAABc/IB-QVPzH9EM/s800/image010.jpg
-Title Bar
+*Title Bar*
 
 
 
@@ -90,4 +95,4 @@ Cleared to Cross 	Rwy Advisory	None ||Tone ||Rwy 	x	x
  
                
 http://lh5.ggpht.com/_bluhmLJHCwM/TUc-wE61JyI/AAAAAAAAABg/QLB5vY-XY48/s640/image011.jpg
-Visual Warnings Provided by the App
+*Visual Warnings Provided by the App*
