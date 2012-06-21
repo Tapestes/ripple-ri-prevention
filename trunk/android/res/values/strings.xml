@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This is the copyright work of The MITRE Corporation, and was produced for the 
+  U. S. Government under Contract Number DTFAWA-10-C-00080, as well as subject 
+  to the Apache Licence, Version 2.0 dated January 2004. 
+  
+  For further information, please contact The MITRE Corporation, Contracts Office, 
+  7515 Colshire Drive, McLean, VA  22102-7539, (703) 983-6000.
+  
+  Copyright 2011 The MITRE Corporation
+  
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+         http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+	<string name="app_name">RIPPLE - Beta Test</string>
+	<string name="disclaimerText">Do not attempt to configure this application or
+		input information while in the runway environment or at any time
+		during which doing so inhibits your situation awareness on the airport
+		surface.\n\nYour failure to pay full attention to the
+		operation of your
+		aircraft could result in death, serious injury, or
+		property
+		damage.\n\nReminders provided by this application may not be
+		accurate.\n\nParticipation in this beta test does not relieve you from the
+		requirements contained in FAR 91.13, FAR 91.21, or any other
+		applicable regulatory requirements.
+		You assume all risk and
+		responsibility of using or relying on this application.” 
+	</string>
+	<string name="noAirportFoundText">It appears that you are trying to use the RIPPLE
+		App, but are not located at an airport. You must be within 5 miles of
+		an airport in order for the application to work correctly.\n\nPlease
+		continue by choosing an option below.
+	</string>
+	<string name="airportNotSupportedText">The airport you are currently at is not supported
+		by the RIPPLE App.\n\nPlease continue by choosing an option below.
+	</string>
+</resources>

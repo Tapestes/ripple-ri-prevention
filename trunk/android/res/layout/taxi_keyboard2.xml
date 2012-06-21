@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This is the copyright work of The MITRE Corporation, and was produced for the 
+  U. S. Government under Contract Number DTFAWA-10-C-00080, as well as subject 
+  to the Apache Licence, Version 2.0 dated January 2004. 
+  
+  For further information, please contact The MITRE Corporation, Contracts Office, 
+  7515 Colshire Drive, McLean, VA  22102-7539, (703) 983-6000.
+  
+  Copyright 2011 The MITRE Corporation
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  
+  You may obtain a copy of the License at
+  
+  	    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout07" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:background="#68768b">
+
+
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/LinearLayout08"
+		android:layout_alignParentTop="true" android:padding="10dip"
+		android:gravity="center_vertical" android:orientation="horizontal">
+		<TextView android:layout_height="fill_parent" android:id="@+id/TextView01"
+			android:gravity="center_vertical" android:paddingRight="20dip"
+			android:textSize="20dp" android:textColor="#FFFFFF" android:typeface="sans"
+			android:text="Depart  " android:textStyle="bold"
+			android:layout_width="wrap_content"></TextView>
+		<TextView android:id="@+id/Runway" android:background="@drawable/gray_thumb"
+			android:layout_height="wrap_content" android:editable="false"
+			android:layout_width="100dip" android:text="blahblah"
+			android:gravity="center" android:layout_centerVertical="true"
+			android:textColor="#FFFFFF" android:textSize="18dip"
+			android:paddingTop="10dip" android:paddingBottom="10dip"
+			android:paddingLeft="10dip" android:paddingRight="10dip"
+			android:textStyle="bold" android:shadowColor="#000000"
+			android:shadowDx="2" android:shadowDy="2" android:layout_toRightOf="@id/TextView01" />
+		<RelativeLayout android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_weight="1">
+			<Button android:id="@+id/btn_cancel" android:text="CANCEL"
+				android:layout_alignParentRight="true" android:layout_height="fill_parent"
+				android:layout_width="wrap_content" android:textSize="14dp"
+				android:textStyle="bold"></Button>
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_below="@+id/LinearLayout08"
+		android:id="@+id/LinearLayout09" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_above="@+id/KeyBoard"
+		android:paddingLeft="10dip" android:paddingRight="10dip"
+		android:paddingBottom="10dip">
+		<ListView android:id="@+id/instructionList"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:divider="#000000" android:dividerHeight="2dip"
+			android:background="@drawable/list_bg" />
+
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:id="@+id/KeyBoard" android:layout_alignParentBottom="true"
+		android:background="#808080">
+
+		<View android:id="@+id/keyboard_spacer1" android:layout_width="fill_parent"
+			android:background="#000000" android:layout_height="1dip" />
+		<View android:id="@+id/keyboard_spacer2" android:layout_width="fill_parent"
+			android:background="#FFFFFF" android:layout_height="2dip" />
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="1dip" android:paddingBottom="1dip">
+
+			<Button android:text="Hold Short" android:id="@+id/btn_hold"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_height="fill_parent" android:layout_width="0dip"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="Cross" android:id="@+id/btn_cross"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="fill_parent"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="Line Up" android:id="@+id/btn_position"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="fill_parent"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="Taxi" android:id="@+id/btn_taxi"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="fill_parent"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="1dip" android:paddingBottom="1dip">
+
+			<Button android:text="1" android:id="@+id/btn_1"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_height="wrap_content" android:layout_width="0dip"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="2" android:id="@+id/btn_2"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="3" android:id="@+id/btn_3"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="4" android:id="@+id/btn_4"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="5" android:id="@+id/btn_5"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="6" android:id="@+id/btn_6"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="7" android:id="@+id/btn_7"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="8" android:id="@+id/btn_8"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="9" android:id="@+id/btn_9"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="0" android:id="@+id/btn_0"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout03"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="1dip" android:paddingBottom="1dip">
+
+			<Button android:text="Q" android:id="@+id/btn_q"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_height="wrap_content" android:layout_width="0dip"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="W" android:id="@+id/btn_w"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="E" android:id="@+id/btn_e"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="R" android:id="@+id/btn_r"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="T" android:id="@+id/btn_t"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="Y" android:id="@+id/btn_y"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="U" android:id="@+id/btn_u"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="I" android:id="@+id/btn_i"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="O" android:id="@+id/btn_o"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="P" android:id="@+id/btn_p"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/LinearLayout04"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="1dip" android:paddingBottom="1dip">
+
+			<View android:id="@+id/btn_space_a" android:layout_width="0dip"
+				android:layout_weight=".5" android:layout_height="0dip" />
+			<Button android:text="A" android:id="@+id/btn_a"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_height="wrap_content" android:layout_width="0dip"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="S" android:id="@+id/btn_s"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="D" android:id="@+id/btn_d"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="F" android:id="@+id/btn_f"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="G" android:id="@+id/btn_g"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="H" android:id="@+id/btn_h"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="J" android:id="@+id/btn_j"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="K" android:id="@+id/btn_k"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="L" android:id="@+id/btn_l"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<View android:id="@+id/btn_space_l" android:layout_width="0dip"
+				android:layout_weight=".5" android:layout_height="0dip" />
+
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/LinearLayout05"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="1dip" android:paddingBottom="1dip">
+
+			<View android:id="@+id/btn_space_z" android:layout_width="0dip"
+				android:layout_weight=".5" android:layout_height="0dip" />
+			<Button android:text="," android:id="@+id/btn_comma"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="Z" android:id="@+id/btn_z"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="X" android:id="@+id/btn_x"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="C" android:id="@+id/btn_c"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="V" android:id="@+id/btn_v"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="B" android:id="@+id/btn_b"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="N" android:id="@+id/btn_n"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="M" android:id="@+id/btn_m"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="." android:id="@+id/btn_period"
+				android:textColor="#000000" android:background="@drawable/btn"
+				android:layout_width="0dip" android:layout_height="wrap_content"
+				android:layout_weight="1" android:typeface="sans" android:textStyle="bold"></Button>
+			<View android:id="@+id/btn_space_m" android:layout_width="0dip"
+				android:layout_weight=".5" android:layout_height="0dip" />
+
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/LinearLayout06"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="1dip" android:paddingBottom="1dip">
+
+
+			<Button android:text="◀Bksp" android:id="@+id/btn_back"
+				android:background="@drawable/btn" android:layout_width="0dip"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="Space / Next" android:id="@+id/btn_space"
+				android:background="@drawable/btn" android:layout_width="0dip"
+				android:layout_height="wrap_content" android:layout_weight="2"
+				android:typeface="sans" android:textStyle="bold"></Button>
+			<Button android:text="Done" android:id="@+id/btn_done"
+				android:background="@drawable/btn" android:layout_width="0dip"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:typeface="sans" android:textStyle="bold"></Button>
+
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
