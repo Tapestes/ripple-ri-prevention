@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Ripple View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="RippleViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="xq9-Vr-14E" customClass="AirportMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" id="hfz-6z-9bL" customClass="SlidingDrawerView">
+                                <rect key="frame" x="0.0" y="-280" width="320" height="360"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Jrv-cu-D4i" customClass="HeaderView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="WEi-rk-n6d" customClass="FooterView">
+                                <rect key="frame" x="0.0" y="420" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="7Jf-AV-EH6" customClass="SetDepartureRunwayView">
+                                <rect key="frame" x="30" y="40" width="250" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <view contentMode="scaleToFill" id="F2M-nR-GuX" customClass="GPSAccuracyView">
+                                <rect key="frame" x="0.0" y="400" width="320" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="RI9-eY-RCw" customClass="AlertView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="YuF-QC-BL6" customClass="LoadingView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="6b9-Vf-j6p" customClass="MiniAlertView">
+                                <rect key="frame" x="0.0" y="420" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view multipleTouchEnabled="YES" contentMode="scaleToFill" id="lV2-Xj-GhX" customClass="TaxiDisplay">
+                                <rect key="frame" x="70" y="410" width="210" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" id="xLg-vh-DHV">
+                                        <rect key="frame" x="5" y="5" width="195" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <view contentMode="scaleToFill" id="9Zl-Vx-qLf">
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="emptyView" destination="9Zl-Vx-qLf" id="bQD-48-Wsg"/>
+                                    <outlet property="largeView" destination="VeS-Mr-ZSh" id="oxk-wx-pOu"/>
+                                    <outlet property="textArea" destination="xLg-vh-DHV" id="9AL-wY-PRu"/>
+                                </connections>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" id="VeS-Mr-ZSh" customClass="LargeTaxiDisplay">
+                                <rect key="frame" x="0.0" y="105" width="320" height="250"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" alpha="0.50000000000000011" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UWO-vD-LRN">
+                                        <rect key="frame" x="6" y="5" width="305" height="240"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="DarkGrey-Banner-Background-32.png" id="Hs2-4S-dmb">
+                                        <rect key="frame" x="10" y="0.0" width="300" height="250"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Taxi Path" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="B1X-g8-L5I">
+                                        <rect key="frame" x="85" y="15" width="150" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" id="bbb-Ca-rfm">
+                                        <rect key="frame" x="60" y="40" width="200" height="3"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="3wB-5y-k5R">
+                                        <rect key="frame" x="15" y="50" width="290" height="180"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="textArea" destination="3wB-5y-k5R" id="fE6-l3-aCn"/>
+                                </connections>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" id="6jw-Nx-Eps" customClass="DebugMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="DkM-hU-1GF">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="390"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </mapView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Lat:" lineBreakMode="tailTruncation" minimumFontSize="10" id="J8f-bP-Wdn">
+                                        <rect key="frame" x="20" y="400" width="140" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Lon:" lineBreakMode="tailTruncation" minimumFontSize="10" id="lZY-1p-zam">
+                                        <rect key="frame" x="180" y="400" width="140" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Alt:" lineBreakMode="tailTruncation" minimumFontSize="10" id="yqr-UZ-XNz">
+                                        <rect key="frame" x="20" y="420" width="140" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="GPS Acc:" lineBreakMode="tailTruncation" minimumFontSize="10" id="Qac-nN-cAP">
+                                        <rect key="frame" x="180" y="420" width="140" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Speed:" lineBreakMode="tailTruncation" minimumFontSize="10" id="HrV-AZ-XZO">
+                                        <rect key="frame" x="20" y="440" width="140" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hdg:" lineBreakMode="tailTruncation" minimumFontSize="10" id="NdM-Hn-QJw">
+                                        <rect key="frame" x="180" y="440" width="140" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bbh-UJ-fBv">
+                                        <rect key="frame" x="9" y="8" width="72" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closeview:" destination="6jw-Nx-Eps" eventType="touchUpInside" id="UtB-Iy-SEa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="altLabel" destination="yqr-UZ-XNz" id="5qy-Gj-HI2"/>
+                                    <outlet property="backButton" destination="bbh-UJ-fBv" id="KZt-7A-Vdj"/>
+                                    <outlet property="gpsAccLabel" destination="Qac-nN-cAP" id="Bn6-Q2-MSg"/>
+                                    <outlet property="hdgLabel" destination="NdM-Hn-QJw" id="UF6-Pq-uXi"/>
+                                    <outlet property="latLabel" destination="J8f-bP-Wdn" id="rjd-Yc-05E"/>
+                                    <outlet property="lonLabel" destination="lZY-1p-zam" id="pPL-vl-KcW"/>
+                                    <outlet property="mapView" destination="DkM-hU-1GF" id="rCu-Ww-vWm"/>
+                                    <outlet property="spdLabel" destination="HrV-AZ-XZO" id="FGR-r8-Iwo"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="airportMapView" destination="xq9-Vr-14E" id="zOd-CW-GgJ"/>
+                        <outlet property="alertView" destination="RI9-eY-RCw" id="dp4-nn-JH6"/>
+                        <outlet property="debugMapView" destination="6jw-Nx-Eps" id="cQm-pB-wYT"/>
+                        <outlet property="footerView" destination="WEi-rk-n6d" id="910-iY-4gW"/>
+                        <outlet property="gpsView" destination="F2M-nR-GuX" id="A6Z-bK-TGD"/>
+                        <outlet property="headerView" destination="Jrv-cu-D4i" id="CrG-rO-TRw"/>
+                        <outlet property="loadingView" destination="YuF-QC-BL6" id="65R-ie-9FH"/>
+                        <outlet property="miniAlertView" destination="6b9-Vf-j6p" id="wVd-Vz-Gpy"/>
+                        <outlet property="setRunwayView" destination="7Jf-AV-EH6" id="gDM-uu-G3w"/>
+                        <outlet property="slidingView" destination="hfz-6z-9bL" id="iNk-3Q-Rc3"/>
+                        <outlet property="taxiDisplay" destination="lV2-Xj-GhX" id="F4z-s0-GLh"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="41" y="-176"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DarkGrey-Banner-Background-32.png" width="317" height="61"/>
+    </resources>
+    <classes>
+        <class className="AirportMapView" superclassName="UIWebView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AirportMapView.h"/>
+        </class>
+        <class className="AlertView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AlertView.h"/>
+        </class>
+        <class className="DebugMapView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DebugMapView.h"/>
+            <relationships>
+                <relationship kind="action" name="closeview:"/>
+                <relationship kind="outlet" name="altLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="backButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="gpsAccLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="hdgLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="latLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lonLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+                <relationship kind="outlet" name="spdLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="FooterView" superclassName="UIImageView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FooterView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="infoButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="taxiButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="GPSAccuracyView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GPSAccuracyView.h"/>
+        </class>
+        <class className="HeaderView" superclassName="UIImageView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HeaderView.h"/>
+        </class>
+        <class className="LargeTaxiDisplay" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LargeTaxiDisplay.h"/>
+            <relationships>
+                <relationship kind="outlet" name="textArea" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="LoadingView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoadingView.h"/>
+        </class>
+        <class className="MiniAlertView" superclassName="UIImageView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MiniAlertView.h"/>
+        </class>
+        <class className="RippleViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RippleViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="airportMapView" candidateClass="AirportMapView"/>
+                <relationship kind="outlet" name="alertView" candidateClass="AlertView"/>
+                <relationship kind="outlet" name="debugMapView" candidateClass="DebugMapView"/>
+                <relationship kind="outlet" name="footerView" candidateClass="FooterView"/>
+                <relationship kind="outlet" name="gpsView" candidateClass="GPSAccuracyView"/>
+                <relationship kind="outlet" name="headerView" candidateClass="HeaderView"/>
+                <relationship kind="outlet" name="loadingView" candidateClass="LoadingView"/>
+                <relationship kind="outlet" name="miniAlertView" candidateClass="MiniAlertView"/>
+                <relationship kind="outlet" name="setRunwayView" candidateClass="SetDepartureRunwayView"/>
+                <relationship kind="outlet" name="slidingView" candidateClass="SlidingDrawerView"/>
+                <relationship kind="outlet" name="taxiDisplay" candidateClass="TaxiDisplay"/>
+            </relationships>
+        </class>
+        <class className="SetDepartureRunwayView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SetDepartureRunwayView.h"/>
+        </class>
+        <class className="SlidingDrawerView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SlidingDrawerView.h"/>
+        </class>
+        <class className="TaxiDisplay" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TaxiDisplay.h"/>
+            <relationships>
+                <relationship kind="outlet" name="emptyView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="largeView" candidateClass="LargeTaxiDisplay"/>
+                <relationship kind="outlet" name="textArea" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

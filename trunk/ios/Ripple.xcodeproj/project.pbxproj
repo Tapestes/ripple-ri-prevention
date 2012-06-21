@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6415562814C4E564007A3EA7 /* InfoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6415562714C4E564007A3EA7 /* InfoTableViewController.xib */; };
+		642D572A14BE7F0700AD7D2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642D572914BE7F0700AD7D2F /* CoreLocation.framework */; };
+		642E1AF614CF5429005D4C7D /* Reminder_Disabled_Background_Full.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E1AF414CF5429005D4C7D /* Reminder_Disabled_Background_Full.png */; };
+		642E1AF714CF5429005D4C7D /* Reminder_Disabled_Background_Minimizedl.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E1AF514CF5429005D4C7D /* Reminder_Disabled_Background_Minimizedl.png */; };
+		642E1AFA14CF87AA005D4C7D /* Ripple-iOS-Icon-72x72-32bit-Flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 642E1AF914CF87AA005D4C7D /* Ripple-iOS-Icon-72x72-32bit-Flat.png */; };
+		6445D56114D9E1E8005F63D0 /* TaxiView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6445D56014D9E1E8005F63D0 /* TaxiView.xib */; };
+		6445D56414D9E241005F63D0 /* TaxiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6445D56314D9E241005F63D0 /* TaxiView.m */; };
+		6445D56614D9E8E5005F63D0 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 6445D56514D9E8E5005F63D0 /* key.png */; };
+		644FFB7E14C748860072F66F /* AlertRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 644FFB7D14C748860072F66F /* AlertRecord.m */; };
+		644FFB8614C7B3950072F66F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644FFB8514C7B3950072F66F /* CFNetwork.framework */; };
+		644FFB8914C889040072F66F /* BetaFeedbackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 644FFB8814C889040072F66F /* BetaFeedbackView.m */; };
+		646702AC15092989009F1CAB /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 646702AB15092989009F1CAB /* AudioRecorder.m */; };
+		646702AF150955DE009F1CAB /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646702AE150955DE009F1CAB /* CoreAudio.framework */; };
+		646702B315095653009F1CAB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646702B215095653009F1CAB /* AudioToolbox.framework */; };
+		646702B715095EF9009F1CAB /* mic_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 646702B415095EF9009F1CAB /* mic_off.png */; };
+		646702B815095EF9009F1CAB /* mic_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 646702B515095EF9009F1CAB /* mic_on.png */; };
+		646702B915095EF9009F1CAB /* mic_on2.png in Resources */ = {isa = PBXBuildFile; fileRef = 646702B615095EF9009F1CAB /* mic_on2.png */; };
+		646702BB15096890009F1CAB /* mic_on1.png in Resources */ = {isa = PBXBuildFile; fileRef = 646702BA15096890009F1CAB /* mic_on1.png */; };
+		64694B3F157D027500E3BE25 /* Rwy-Slider-Two-State-Blue-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64694B3D157D027500E3BE25 /* Rwy-Slider-Two-State-Blue-Background-32.png */; };
+		64694B40157D027500E3BE25 /* Rwy-Slider-Two-State-Red-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64694B3E157D027500E3BE25 /* Rwy-Slider-Two-State-Red-Background-32.png */; };
+		64A69FC914C49F12000D09D5 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A69FC814C49F12000D09D5 /* FooterView.m */; };
+		64A69FCC14C4A1B6000D09D5 /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A69FCB14C4A1B6000D09D5 /* InfoTableViewController.m */; };
+		64B449AF14BF651B0077BFFF /* Airport.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B449AA14BF651B0077BFFF /* Airport.m */; };
+		64B449B014BF651B0077BFFF /* AirportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B449AC14BF651B0077BFFF /* AirportManager.m */; };
+		64B449B114BF651B0077BFFF /* Runway.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B449AE14BF651B0077BFFF /* Runway.m */; };
+		64B449B414BF652F0077BFFF /* AirportMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B449B314BF652F0077BFFF /* AirportMapView.m */; };
+		64B449B714BF653E0077BFFF /* GPSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B449B614BF653E0077BFFF /* GPSManager.m */; };
+		64B449BC14BF65560077BFFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B449B914BF65560077BFFF /* AppDelegate.m */; };
+		64B449BD14BF65560077BFFF /* RippleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B449BB14BF65560077BFFF /* RippleViewController.m */; };
+		64B98F4B152118C60023B2B8 /* mic_on3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B98F4A152118C60023B2B8 /* mic_on3.png */; };
+		64CE174214BF6F6100508E2B /* ripple-runways_NE.xml in Resources */ = {isa = PBXBuildFile; fileRef = 64CE173E14BF6F6100508E2B /* ripple-runways_NE.xml */; };
+		64CE174314BF6F6100508E2B /* ripple-runways_NW.xml in Resources */ = {isa = PBXBuildFile; fileRef = 64CE173F14BF6F6100508E2B /* ripple-runways_NW.xml */; };
+		64CE174414BF6F6100508E2B /* ripple-runways_SE.xml in Resources */ = {isa = PBXBuildFile; fileRef = 64CE174014BF6F6100508E2B /* ripple-runways_SE.xml */; };
+		64CE174514BF6F6100508E2B /* ripple-runways_SW.xml in Resources */ = {isa = PBXBuildFile; fileRef = 64CE174114BF6F6100508E2B /* ripple-runways_SW.xml */; };
+		64CE174914BF7D7200508E2B /* IND.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 64CE174814BF7D7200508E2B /* IND.gpx */; };
+		64CE174C14BF829000508E2B /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE174B14BF829000508E2B /* HeaderView.m */; };
+		64CE176A14BF886300508E2B /* airport_missing.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE174E14BF886300508E2B /* airport_missing.png */; };
+		64CE176B14BF886300508E2B /* departure-button-not-set-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE174F14BF886300508E2B /* departure-button-not-set-32.png */; };
+		64CE176C14BF886300508E2B /* departure-button-set-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175014BF886300508E2B /* departure-button-set-32.png */; };
+		64CE176D14BF886300508E2B /* departure-button-set-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175114BF886300508E2B /* departure-button-set-grey.png */; };
+		64CE176E14BF886300508E2B /* Departure-Slider-Blue-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175214BF886300508E2B /* Departure-Slider-Blue-Background-32.png */; };
+		64CE176F14BF886300508E2B /* Departure-Slider-Button-Grey-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175314BF886300508E2B /* Departure-Slider-Button-Grey-32.png */; };
+		64CE177014BF886300508E2B /* Departure-Slider-Button-Red-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175414BF886300508E2B /* Departure-Slider-Button-Red-32.png */; };
+		64CE177114BF886300508E2B /* Depature-Slider-Grey-Hatch-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175514BF886300508E2B /* Depature-Slider-Grey-Hatch-Background-32.png */; };
+		64CE177214BF886300508E2B /* earlyAlert-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175614BF886300508E2B /* earlyAlert-32.png */; };
+		64CE177314BF886300508E2B /* falseAlert-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175714BF886300508E2B /* falseAlert-32.png */; };
+		64CE177414BF886300508E2B /* footer-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175814BF886300508E2B /* footer-32.png */; };
+		64CE177514BF886300508E2B /* goodAlert-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175914BF886300508E2B /* goodAlert-32.png */; };
+		64CE177614BF886300508E2B /* gradiant-glass-footer-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175A14BF886300508E2B /* gradiant-glass-footer-32.png */; };
+		64CE177714BF886300508E2B /* Grey-Banner-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175B14BF886300508E2B /* Grey-Banner-Background-32.png */; };
+		64CE177814BF886300508E2B /* header-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175C14BF886300508E2B /* header-32.png */; };
+		64CE177914BF886300508E2B /* headset-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175D14BF886300508E2B /* headset-32.png */; };
+		64CE177A14BF886300508E2B /* info-button-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175E14BF886300508E2B /* info-button-32.png */; };
+		64CE177B14BF886300508E2B /* lateAlert-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE175F14BF886300508E2B /* lateAlert-32.png */; };
+		64CE177C14BF886300508E2B /* red-hatch-maximized-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176014BF886300508E2B /* red-hatch-maximized-32.png */; };
+		64CE177D14BF886300508E2B /* red-hatch-minimized-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176114BF886300508E2B /* red-hatch-minimized-32.png */; };
+		64CE177E14BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat_orig.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176214BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat_orig.png */; };
+		64CE177F14BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176314BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat.png */; };
+		64CE178014BF886300508E2B /* Rwy-Slider-Blue-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176414BF886300508E2B /* Rwy-Slider-Blue-Background-32.png */; };
+		64CE178114BF886300508E2B /* Rwy-Slider-Grey-Hatch-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176514BF886300508E2B /* Rwy-Slider-Grey-Hatch-Background-32.png */; };
+		64CE178214BF886300508E2B /* Rwy-Slider-Red-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176614BF886300508E2B /* Rwy-Slider-Red-Background-32.png */; };
+		64CE178314BF886300508E2B /* Rwy-Slider-Slider-Bright-Red-for-Hold-Short-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176714BF886300508E2B /* Rwy-Slider-Slider-Bright-Red-for-Hold-Short-32.png */; };
+		64CE178414BF886300508E2B /* Rwy-Slider-Slider-Deep-Red-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176814BF886300508E2B /* Rwy-Slider-Slider-Deep-Red-32.png */; };
+		64CE178514BF886300508E2B /* taxi-keyboard-button-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE176914BF886300508E2B /* taxi-keyboard-button-32.png */; };
+		64CE178914BF8A4600508E2B /* Ripple-iOS-Icon-114x114-32bit-Flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE178814BF8A4600508E2B /* Ripple-iOS-Icon-114x114-32bit-Flat.png */; };
+		64D102D114C4E6D800311432 /* SetDepartureRunwayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102D014C4E6D800311432 /* SetDepartureRunwayView.m */; };
+		64D102D514C4E77F00311432 /* SetRunwaySliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102D414C4E77F00311432 /* SetRunwaySliderView.m */; };
+		64D102D814C4ED9C00311432 /* GPSAccuracyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102D714C4ED9C00311432 /* GPSAccuracyView.m */; };
+		64D102DB14C4EF3B00311432 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102DA14C4EF3B00311432 /* LoadingView.m */; };
+		64D102E014C5CD2500311432 /* HandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102DD14C5CD2400311432 /* HandleView.m */; };
+		64D102E114C5CD2500311432 /* SlidingDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102DF14C5CD2500311432 /* SlidingDrawerView.m */; };
+		64D102E414C5CE3400311432 /* RunwaySliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102E314C5CE3400311432 /* RunwaySliderView.m */; };
+		64D102E714C604ED00311432 /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102E614C604ED00311432 /* AlertManager.m */; };
+		64D102EA14C611C600311432 /* RunwayAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102E914C611C600311432 /* RunwayAlert.m */; };
+		64D102EF14C7228700311432 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102EC14C7228400311432 /* AlertView.m */; };
+		64D102F014C7228700311432 /* MiniAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D102EE14C7228600311432 /* MiniAlertView.m */; };
+		64D1030314C7259C00311432 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102F214C7259C00311432 /* 0.mp3 */; };
+		64D1030414C7259C00311432 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102F314C7259C00311432 /* 1.mp3 */; };
+		64D1030514C7259C00311432 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102F414C7259C00311432 /* 2.mp3 */; };
+		64D1030614C7259C00311432 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102F514C7259C00311432 /* 3.mp3 */; };
+		64D1030714C7259C00311432 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102F614C7259C00311432 /* 4.mp3 */; };
+		64D1030814C7259C00311432 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102F714C7259C00311432 /* 5.mp3 */; };
+		64D1030914C7259C00311432 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102F814C7259C00311432 /* 6.mp3 */; };
+		64D1030A14C7259C00311432 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102F914C7259C00311432 /* 7.mp3 */; };
+		64D1030B14C7259C00311432 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102FA14C7259C00311432 /* 8.mp3 */; };
+		64D1030C14C7259C00311432 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102FB14C7259C00311432 /* 9.mp3 */; };
+		64D1030D14C7259C00311432 /* center.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102FC14C7259C00311432 /* center.mp3 */; };
+		64D1030E14C7259C00311432 /* crossingRunway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102FD14C7259C00311432 /* crossingRunway.mp3 */; };
+		64D1030F14C7259C00311432 /* holdShortNoClearanceForRunway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102FE14C7259C00311432 /* holdShortNoClearanceForRunway.mp3 */; };
+		64D1031014C7259C00311432 /* holdShortOfRunway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D102FF14C7259C00311432 /* holdShortOfRunway.mp3 */; };
+		64D1031114C7259C00311432 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D1030014C7259C00311432 /* left.mp3 */; };
+		64D1031214C7259C00311432 /* noTakeoffClearance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D1030114C7259C00311432 /* noTakeoffClearance.mp3 */; };
+		64D1031314C7259C00311432 /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D1030214C7259C00311432 /* right.mp3 */; };
+		64D1031514C7271600311432 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D1031414C7271600311432 /* AVFoundation.framework */; };
+		64DA85AD14DA226E00A5B23C /* RunwayButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA85AC14DA226D00A5B23C /* RunwayButtonsView.m */; };
+		64DA85B014DC510700A5B23C /* FullRunwayButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA85AF14DC510600A5B23C /* FullRunwayButtonsView.m */; };
+		64DA85B314DC7BCE00A5B23C /* TaxiDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA85B214DC7BCE00A5B23C /* TaxiDisplay.m */; };
+		64DA85B614DC87FE00A5B23C /* LargeTaxiDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DA85B514DC87FD00A5B23C /* LargeTaxiDisplay.m */; };
+		64DA85B814DC8B5F00A5B23C /* DarkGrey-Banner-Background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 64DA85B714DC8B5D00A5B23C /* DarkGrey-Banner-Background-32.png */; };
+		64E74F2314ED8313006E163A /* DebugMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E74F2214ED8313006E163A /* DebugMapView.m */; };
+		64E74F2614ED86F7006E163A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E74F2514ED86F7006E163A /* MapKit.framework */; };
+		64F5AAC414BE0BE6003A7301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F5AAC314BE0BE6003A7301 /* UIKit.framework */; };
+		64F5AAC614BE0BE6003A7301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F5AAC514BE0BE6003A7301 /* Foundation.framework */; };
+		64F5AAC814BE0BE6003A7301 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F5AAC714BE0BE6003A7301 /* CoreGraphics.framework */; };
+		64F5AACE14BE0BE6003A7301 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AACC14BE0BE6003A7301 /* InfoPlist.strings */; };
+		64F5AAD014BE0BE6003A7301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F5AACF14BE0BE6003A7301 /* main.m */; };
+		64F5AAD714BE0BE6003A7301 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F5AAD514BE0BE6003A7301 /* MainStoryboard_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6415562714C4E564007A3EA7 /* InfoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoTableViewController.xib; path = Classes/View/InfoTableViewController.xib; sourceTree = "<group>"; };
+		642D572914BE7F0700AD7D2F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		642E1AF414CF5429005D4C7D /* Reminder_Disabled_Background_Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Reminder_Disabled_Background_Full.png; path = Resources/images/Reminder_Disabled_Background_Full.png; sourceTree = "<group>"; };
+		642E1AF514CF5429005D4C7D /* Reminder_Disabled_Background_Minimizedl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Reminder_Disabled_Background_Minimizedl.png; path = Resources/images/Reminder_Disabled_Background_Minimizedl.png; sourceTree = "<group>"; };
+		642E1AF914CF87AA005D4C7D /* Ripple-iOS-Icon-72x72-32bit-Flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ripple-iOS-Icon-72x72-32bit-Flat.png"; path = "Resources/images/Ripple-iOS-Icon-72x72-32bit-Flat.png"; sourceTree = "<group>"; };
+		6445D56014D9E1E8005F63D0 /* TaxiView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TaxiView.xib; path = Resources/TaxiView.xib; sourceTree = "<group>"; };
+		6445D56214D9E241005F63D0 /* TaxiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaxiView.h; path = Classes/View/TaxiView.h; sourceTree = "<group>"; };
+		6445D56314D9E241005F63D0 /* TaxiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaxiView.m; path = Classes/View/TaxiView.m; sourceTree = "<group>"; };
+		6445D56514D9E8E5005F63D0 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = Resources/images/key.png; sourceTree = "<group>"; };
+		644FFB7C14C748860072F66F /* AlertRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertRecord.h; path = Classes/Model/AlertRecord.h; sourceTree = "<group>"; };
+		644FFB7D14C748860072F66F /* AlertRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertRecord.m; path = Classes/Model/AlertRecord.m; sourceTree = "<group>"; };
+		644FFB8514C7B3950072F66F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		644FFB8714C889040072F66F /* BetaFeedbackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BetaFeedbackView.h; path = Classes/View/BetaFeedbackView.h; sourceTree = "<group>"; };
+		644FFB8814C889040072F66F /* BetaFeedbackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BetaFeedbackView.m; path = Classes/View/BetaFeedbackView.m; sourceTree = "<group>"; };
+		646702AA15092989009F1CAB /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioRecorder.h; path = Classes/Model/AudioRecorder.h; sourceTree = "<group>"; };
+		646702AB15092989009F1CAB /* AudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioRecorder.m; path = Classes/Model/AudioRecorder.m; sourceTree = "<group>"; };
+		646702AE150955DE009F1CAB /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		646702B01509564B009F1CAB /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		646702B215095653009F1CAB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		646702B415095EF9009F1CAB /* mic_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_off.png; path = Resources/images/mic_off.png; sourceTree = "<group>"; };
+		646702B515095EF9009F1CAB /* mic_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_on.png; path = Resources/images/mic_on.png; sourceTree = "<group>"; };
+		646702B615095EF9009F1CAB /* mic_on2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_on2.png; path = Resources/images/mic_on2.png; sourceTree = "<group>"; };
+		646702BA15096890009F1CAB /* mic_on1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_on1.png; path = Resources/images/mic_on1.png; sourceTree = "<group>"; };
+		64694B3D157D027500E3BE25 /* Rwy-Slider-Two-State-Blue-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rwy-Slider-Two-State-Blue-Background-32.png"; path = "Resources/images/Rwy-Slider-Two-State-Blue-Background-32.png"; sourceTree = "<group>"; };
+		64694B3E157D027500E3BE25 /* Rwy-Slider-Two-State-Red-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rwy-Slider-Two-State-Red-Background-32.png"; path = "Resources/images/Rwy-Slider-Two-State-Red-Background-32.png"; sourceTree = "<group>"; };
+		64A69FC714C49F12000D09D5 /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FooterView.h; path = Classes/View/FooterView.h; sourceTree = "<group>"; };
+		64A69FC814C49F12000D09D5 /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FooterView.m; path = Classes/View/FooterView.m; sourceTree = "<group>"; };
+		64A69FCA14C4A1B6000D09D5 /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoTableViewController.h; path = Classes/View/InfoTableViewController.h; sourceTree = "<group>"; };
+		64A69FCB14C4A1B6000D09D5 /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoTableViewController.m; path = Classes/View/InfoTableViewController.m; sourceTree = "<group>"; };
+		64B449A914BF651B0077BFFF /* Airport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Airport.h; path = Classes/Model/Airport.h; sourceTree = "<group>"; };
+		64B449AA14BF651B0077BFFF /* Airport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Airport.m; path = Classes/Model/Airport.m; sourceTree = "<group>"; };
+		64B449AB14BF651B0077BFFF /* AirportManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirportManager.h; path = Classes/Model/AirportManager.h; sourceTree = "<group>"; };
+		64B449AC14BF651B0077BFFF /* AirportManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirportManager.m; path = Classes/Model/AirportManager.m; sourceTree = "<group>"; };
+		64B449AD14BF651B0077BFFF /* Runway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Runway.h; path = Classes/Model/Runway.h; sourceTree = "<group>"; };
+		64B449AE14BF651B0077BFFF /* Runway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Runway.m; path = Classes/Model/Runway.m; sourceTree = "<group>"; };
+		64B449B214BF652F0077BFFF /* AirportMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirportMapView.h; path = Classes/View/AirportMapView.h; sourceTree = "<group>"; };
+		64B449B314BF652F0077BFFF /* AirportMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirportMapView.m; path = Classes/View/AirportMapView.m; sourceTree = "<group>"; };
+		64B449B514BF653E0077BFFF /* GPSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSManager.h; path = Classes/Controller/GPSManager.h; sourceTree = "<group>"; };
+		64B449B614BF653E0077BFFF /* GPSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSManager.m; path = Classes/Controller/GPSManager.m; sourceTree = "<group>"; };
+		64B449B814BF65560077BFFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		64B449B914BF65560077BFFF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		64B449BA14BF65560077BFFF /* RippleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RippleViewController.h; path = Classes/RippleViewController.h; sourceTree = "<group>"; };
+		64B449BB14BF65560077BFFF /* RippleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RippleViewController.m; path = Classes/RippleViewController.m; sourceTree = "<group>"; };
+		64B98F4A152118C60023B2B8 /* mic_on3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mic_on3.png; path = Resources/images/mic_on3.png; sourceTree = "<group>"; };
+		64CE173E14BF6F6100508E2B /* ripple-runways_NE.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "ripple-runways_NE.xml"; path = "Resources/Data Files/ripple-runways_NE.xml"; sourceTree = "<group>"; };
+		64CE173F14BF6F6100508E2B /* ripple-runways_NW.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "ripple-runways_NW.xml"; path = "Resources/Data Files/ripple-runways_NW.xml"; sourceTree = "<group>"; };
+		64CE174014BF6F6100508E2B /* ripple-runways_SE.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "ripple-runways_SE.xml"; path = "Resources/Data Files/ripple-runways_SE.xml"; sourceTree = "<group>"; };
+		64CE174114BF6F6100508E2B /* ripple-runways_SW.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "ripple-runways_SW.xml"; path = "Resources/Data Files/ripple-runways_SW.xml"; sourceTree = "<group>"; };
+		64CE174814BF7D7200508E2B /* IND.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = IND.gpx; path = "Resources/Data Files/IND.gpx"; sourceTree = "<group>"; };
+		64CE174A14BF829000508E2B /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderView.h; path = Classes/View/HeaderView.h; sourceTree = "<group>"; };
+		64CE174B14BF829000508E2B /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderView.m; path = Classes/View/HeaderView.m; sourceTree = "<group>"; };
+		64CE174E14BF886300508E2B /* airport_missing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = airport_missing.png; path = Resources/images/airport_missing.png; sourceTree = "<group>"; };
+		64CE174F14BF886300508E2B /* departure-button-not-set-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "departure-button-not-set-32.png"; path = "Resources/images/departure-button-not-set-32.png"; sourceTree = "<group>"; };
+		64CE175014BF886300508E2B /* departure-button-set-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "departure-button-set-32.png"; path = "Resources/images/departure-button-set-32.png"; sourceTree = "<group>"; };
+		64CE175114BF886300508E2B /* departure-button-set-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "departure-button-set-grey.png"; path = "Resources/images/departure-button-set-grey.png"; sourceTree = "<group>"; };
+		64CE175214BF886300508E2B /* Departure-Slider-Blue-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Departure-Slider-Blue-Background-32.png"; path = "Resources/images/Departure-Slider-Blue-Background-32.png"; sourceTree = "<group>"; };
+		64CE175314BF886300508E2B /* Departure-Slider-Button-Grey-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Departure-Slider-Button-Grey-32.png"; path = "Resources/images/Departure-Slider-Button-Grey-32.png"; sourceTree = "<group>"; };
+		64CE175414BF886300508E2B /* Departure-Slider-Button-Red-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Departure-Slider-Button-Red-32.png"; path = "Resources/images/Departure-Slider-Button-Red-32.png"; sourceTree = "<group>"; };
+		64CE175514BF886300508E2B /* Depature-Slider-Grey-Hatch-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Depature-Slider-Grey-Hatch-Background-32.png"; path = "Resources/images/Depature-Slider-Grey-Hatch-Background-32.png"; sourceTree = "<group>"; };
+		64CE175614BF886300508E2B /* earlyAlert-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "earlyAlert-32.png"; path = "Resources/images/earlyAlert-32.png"; sourceTree = "<group>"; };
+		64CE175714BF886300508E2B /* falseAlert-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "falseAlert-32.png"; path = "Resources/images/falseAlert-32.png"; sourceTree = "<group>"; };
+		64CE175814BF886300508E2B /* footer-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "footer-32.png"; path = "Resources/images/footer-32.png"; sourceTree = "<group>"; };
+		64CE175914BF886300508E2B /* goodAlert-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "goodAlert-32.png"; path = "Resources/images/goodAlert-32.png"; sourceTree = "<group>"; };
+		64CE175A14BF886300508E2B /* gradiant-glass-footer-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gradiant-glass-footer-32.png"; path = "Resources/images/gradiant-glass-footer-32.png"; sourceTree = "<group>"; };
+		64CE175B14BF886300508E2B /* Grey-Banner-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Grey-Banner-Background-32.png"; path = "Resources/images/Grey-Banner-Background-32.png"; sourceTree = "<group>"; };
+		64CE175C14BF886300508E2B /* header-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "header-32.png"; path = "Resources/images/header-32.png"; sourceTree = "<group>"; };
+		64CE175D14BF886300508E2B /* headset-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "headset-32.png"; path = "Resources/images/headset-32.png"; sourceTree = "<group>"; };
+		64CE175E14BF886300508E2B /* info-button-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info-button-32.png"; path = "Resources/images/info-button-32.png"; sourceTree = "<group>"; };
+		64CE175F14BF886300508E2B /* lateAlert-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lateAlert-32.png"; path = "Resources/images/lateAlert-32.png"; sourceTree = "<group>"; };
+		64CE176014BF886300508E2B /* red-hatch-maximized-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-hatch-maximized-32.png"; path = "Resources/images/red-hatch-maximized-32.png"; sourceTree = "<group>"; };
+		64CE176114BF886300508E2B /* red-hatch-minimized-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "red-hatch-minimized-32.png"; path = "Resources/images/red-hatch-minimized-32.png"; sourceTree = "<group>"; };
+		64CE176214BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat_orig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ripple-iOS-Icon-57x57-32bit-Flat_orig.png"; path = "Resources/images/Ripple-iOS-Icon-57x57-32bit-Flat_orig.png"; sourceTree = "<group>"; };
+		64CE176314BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ripple-iOS-Icon-57x57-32bit-Flat.png"; path = "Resources/images/Ripple-iOS-Icon-57x57-32bit-Flat.png"; sourceTree = "<group>"; };
+		64CE176414BF886300508E2B /* Rwy-Slider-Blue-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rwy-Slider-Blue-Background-32.png"; path = "Resources/images/Rwy-Slider-Blue-Background-32.png"; sourceTree = "<group>"; };
+		64CE176514BF886300508E2B /* Rwy-Slider-Grey-Hatch-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rwy-Slider-Grey-Hatch-Background-32.png"; path = "Resources/images/Rwy-Slider-Grey-Hatch-Background-32.png"; sourceTree = "<group>"; };
+		64CE176614BF886300508E2B /* Rwy-Slider-Red-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rwy-Slider-Red-Background-32.png"; path = "Resources/images/Rwy-Slider-Red-Background-32.png"; sourceTree = "<group>"; };
+		64CE176714BF886300508E2B /* Rwy-Slider-Slider-Bright-Red-for-Hold-Short-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rwy-Slider-Slider-Bright-Red-for-Hold-Short-32.png"; path = "Resources/images/Rwy-Slider-Slider-Bright-Red-for-Hold-Short-32.png"; sourceTree = "<group>"; };
+		64CE176814BF886300508E2B /* Rwy-Slider-Slider-Deep-Red-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rwy-Slider-Slider-Deep-Red-32.png"; path = "Resources/images/Rwy-Slider-Slider-Deep-Red-32.png"; sourceTree = "<group>"; };
+		64CE176914BF886300508E2B /* taxi-keyboard-button-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "taxi-keyboard-button-32.png"; path = "Resources/images/taxi-keyboard-button-32.png"; sourceTree = "<group>"; };
+		64CE178814BF8A4600508E2B /* Ripple-iOS-Icon-114x114-32bit-Flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ripple-iOS-Icon-114x114-32bit-Flat.png"; path = "Resources/images/Ripple-iOS-Icon-114x114-32bit-Flat.png"; sourceTree = "<group>"; };
+		64D102CF14C4E6D800311432 /* SetDepartureRunwayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetDepartureRunwayView.h; path = Classes/View/SetDepartureRunwayView.h; sourceTree = "<group>"; };
+		64D102D014C4E6D800311432 /* SetDepartureRunwayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetDepartureRunwayView.m; path = Classes/View/SetDepartureRunwayView.m; sourceTree = "<group>"; };
+		64D102D314C4E77F00311432 /* SetRunwaySliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetRunwaySliderView.h; path = Classes/View/SetRunwaySliderView.h; sourceTree = "<group>"; };
+		64D102D414C4E77F00311432 /* SetRunwaySliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetRunwaySliderView.m; path = Classes/View/SetRunwaySliderView.m; sourceTree = "<group>"; };
+		64D102D614C4ED9B00311432 /* GPSAccuracyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPSAccuracyView.h; path = Classes/View/GPSAccuracyView.h; sourceTree = "<group>"; };
+		64D102D714C4ED9C00311432 /* GPSAccuracyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPSAccuracyView.m; path = Classes/View/GPSAccuracyView.m; sourceTree = "<group>"; };
+		64D102D914C4EF3B00311432 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingView.h; path = Classes/View/LoadingView.h; sourceTree = "<group>"; };
+		64D102DA14C4EF3B00311432 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingView.m; path = Classes/View/LoadingView.m; sourceTree = "<group>"; };
+		64D102DC14C5CD2400311432 /* HandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HandleView.h; path = Classes/View/HandleView.h; sourceTree = "<group>"; };
+		64D102DD14C5CD2400311432 /* HandleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HandleView.m; path = Classes/View/HandleView.m; sourceTree = "<group>"; };
+		64D102DE14C5CD2400311432 /* SlidingDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingDrawerView.h; path = Classes/View/SlidingDrawerView.h; sourceTree = "<group>"; };
+		64D102DF14C5CD2500311432 /* SlidingDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingDrawerView.m; path = Classes/View/SlidingDrawerView.m; sourceTree = "<group>"; };
+		64D102E214C5CE3400311432 /* RunwaySliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunwaySliderView.h; path = Classes/View/RunwaySliderView.h; sourceTree = "<group>"; };
+		64D102E314C5CE3400311432 /* RunwaySliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunwaySliderView.m; path = Classes/View/RunwaySliderView.m; sourceTree = "<group>"; };
+		64D102E514C604ED00311432 /* AlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertManager.h; path = Classes/Controller/AlertManager.h; sourceTree = "<group>"; };
+		64D102E614C604ED00311432 /* AlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertManager.m; path = Classes/Controller/AlertManager.m; sourceTree = "<group>"; };
+		64D102E814C611C600311432 /* RunwayAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunwayAlert.h; path = Classes/Model/RunwayAlert.h; sourceTree = "<group>"; };
+		64D102E914C611C600311432 /* RunwayAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunwayAlert.m; path = Classes/Model/RunwayAlert.m; sourceTree = "<group>"; };
+		64D102EB14C7228400311432 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertView.h; path = Classes/View/AlertView.h; sourceTree = "<group>"; };
+		64D102EC14C7228400311432 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertView.m; path = Classes/View/AlertView.m; sourceTree = "<group>"; };
+		64D102ED14C7228500311432 /* MiniAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiniAlertView.h; path = Classes/View/MiniAlertView.h; sourceTree = "<group>"; };
+		64D102EE14C7228600311432 /* MiniAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiniAlertView.m; path = Classes/View/MiniAlertView.m; sourceTree = "<group>"; };
+		64D102F214C7259C00311432 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 0.mp3; path = Resources/audio/0.mp3; sourceTree = "<group>"; };
+		64D102F314C7259C00311432 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = Resources/audio/1.mp3; sourceTree = "<group>"; };
+		64D102F414C7259C00311432 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2.mp3; path = Resources/audio/2.mp3; sourceTree = "<group>"; };
+		64D102F514C7259C00311432 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 3.mp3; path = Resources/audio/3.mp3; sourceTree = "<group>"; };
+		64D102F614C7259C00311432 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4.mp3; path = Resources/audio/4.mp3; sourceTree = "<group>"; };
+		64D102F714C7259C00311432 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 5.mp3; path = Resources/audio/5.mp3; sourceTree = "<group>"; };
+		64D102F814C7259C00311432 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 6.mp3; path = Resources/audio/6.mp3; sourceTree = "<group>"; };
+		64D102F914C7259C00311432 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 7.mp3; path = Resources/audio/7.mp3; sourceTree = "<group>"; };
+		64D102FA14C7259C00311432 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 8.mp3; path = Resources/audio/8.mp3; sourceTree = "<group>"; };
+		64D102FB14C7259C00311432 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 9.mp3; path = Resources/audio/9.mp3; sourceTree = "<group>"; };
+		64D102FC14C7259C00311432 /* center.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = center.mp3; path = Resources/audio/center.mp3; sourceTree = "<group>"; };
+		64D102FD14C7259C00311432 /* crossingRunway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crossingRunway.mp3; path = Resources/audio/crossingRunway.mp3; sourceTree = "<group>"; };
+		64D102FE14C7259C00311432 /* holdShortNoClearanceForRunway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = holdShortNoClearanceForRunway.mp3; path = Resources/audio/holdShortNoClearanceForRunway.mp3; sourceTree = "<group>"; };
+		64D102FF14C7259C00311432 /* holdShortOfRunway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = holdShortOfRunway.mp3; path = Resources/audio/holdShortOfRunway.mp3; sourceTree = "<group>"; };
+		64D1030014C7259C00311432 /* left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = left.mp3; path = Resources/audio/left.mp3; sourceTree = "<group>"; };
+		64D1030114C7259C00311432 /* noTakeoffClearance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = noTakeoffClearance.mp3; path = Resources/audio/noTakeoffClearance.mp3; sourceTree = "<group>"; };
+		64D1030214C7259C00311432 /* right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = right.mp3; path = Resources/audio/right.mp3; sourceTree = "<group>"; };
+		64D1031414C7271600311432 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		64DA85AB14DA226D00A5B23C /* RunwayButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunwayButtonsView.h; path = Classes/View/RunwayButtonsView.h; sourceTree = "<group>"; };
+		64DA85AC14DA226D00A5B23C /* RunwayButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunwayButtonsView.m; path = Classes/View/RunwayButtonsView.m; sourceTree = "<group>"; };
+		64DA85AE14DC510500A5B23C /* FullRunwayButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullRunwayButtonsView.h; path = Classes/View/FullRunwayButtonsView.h; sourceTree = "<group>"; };
+		64DA85AF14DC510600A5B23C /* FullRunwayButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullRunwayButtonsView.m; path = Classes/View/FullRunwayButtonsView.m; sourceTree = "<group>"; };
+		64DA85B114DC7BCD00A5B23C /* TaxiDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaxiDisplay.h; path = Classes/View/TaxiDisplay.h; sourceTree = "<group>"; };
+		64DA85B214DC7BCE00A5B23C /* TaxiDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaxiDisplay.m; path = Classes/View/TaxiDisplay.m; sourceTree = "<group>"; };
+		64DA85B414DC87FC00A5B23C /* LargeTaxiDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LargeTaxiDisplay.h; path = Classes/View/LargeTaxiDisplay.h; sourceTree = "<group>"; };
+		64DA85B514DC87FD00A5B23C /* LargeTaxiDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LargeTaxiDisplay.m; path = Classes/View/LargeTaxiDisplay.m; sourceTree = "<group>"; };
+		64DA85B714DC8B5D00A5B23C /* DarkGrey-Banner-Background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DarkGrey-Banner-Background-32.png"; path = "Resources/images/DarkGrey-Banner-Background-32.png"; sourceTree = "<group>"; };
+		64E74F2114ED8313006E163A /* DebugMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugMapView.h; path = Classes/View/DebugMapView.h; sourceTree = "<group>"; };
+		64E74F2214ED8313006E163A /* DebugMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DebugMapView.m; path = Classes/View/DebugMapView.m; sourceTree = "<group>"; };
+		64E74F2514ED86F7006E163A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		64F5AABF14BE0BE6003A7301 /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F5AAC314BE0BE6003A7301 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64F5AAC514BE0BE6003A7301 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64F5AAC714BE0BE6003A7301 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64F5AACB14BE0BE6003A7301 /* Ripple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ripple-Info.plist"; sourceTree = "<group>"; };
+		64F5AACD14BE0BE6003A7301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64F5AACF14BE0BE6003A7301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64F5AAD114BE0BE6003A7301 /* Ripple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ripple-Prefix.pch"; sourceTree = "<group>"; };
+		64F5AAD614BE0BE6003A7301 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		64F5AAE414BE0BE6003A7301 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64F5AAEC14BE0BE6003A7301 /* RippleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RippleTests-Info.plist"; sourceTree = "<group>"; };
+		64F5AAEE14BE0BE6003A7301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64F5AAF014BE0BE6003A7301 /* RippleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RippleTests.h; sourceTree = "<group>"; };
+		64F5AAF114BE0BE6003A7301 /* RippleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F5AABC14BE0BE6003A7301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646702B315095653009F1CAB /* AudioToolbox.framework in Frameworks */,
+				646702AF150955DE009F1CAB /* CoreAudio.framework in Frameworks */,
+				64E74F2614ED86F7006E163A /* MapKit.framework in Frameworks */,
+				644FFB8614C7B3950072F66F /* CFNetwork.framework in Frameworks */,
+				64D1031514C7271600311432 /* AVFoundation.framework in Frameworks */,
+				642D572A14BE7F0700AD7D2F /* CoreLocation.framework in Frameworks */,
+				64F5AAC414BE0BE6003A7301 /* UIKit.framework in Frameworks */,
+				64F5AAC614BE0BE6003A7301 /* Foundation.framework in Frameworks */,
+				64F5AAC814BE0BE6003A7301 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CE173B14BF662600508E2B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64F5AB0014BE7487003A7301 /* Model */,
+				64F5AAFB14BE6AF9003A7301 /* View */,
+				64F5AAFF14BE7457003A7301 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		64CE173D14BF6F4F00508E2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64CE173E14BF6F6100508E2B /* ripple-runways_NE.xml */,
+				64CE173F14BF6F6100508E2B /* ripple-runways_NW.xml */,
+				64CE174014BF6F6100508E2B /* ripple-runways_SE.xml */,
+				64CE174114BF6F6100508E2B /* ripple-runways_SW.xml */,
+				64CE174814BF7D7200508E2B /* IND.gpx */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		64CE174D14BF884200508E2B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				64694B3D157D027500E3BE25 /* Rwy-Slider-Two-State-Blue-Background-32.png */,
+				64694B3E157D027500E3BE25 /* Rwy-Slider-Two-State-Red-Background-32.png */,
+				64B98F4A152118C60023B2B8 /* mic_on3.png */,
+				646702BA15096890009F1CAB /* mic_on1.png */,
+				646702B415095EF9009F1CAB /* mic_off.png */,
+				646702B515095EF9009F1CAB /* mic_on.png */,
+				646702B615095EF9009F1CAB /* mic_on2.png */,
+				64DA85B714DC8B5D00A5B23C /* DarkGrey-Banner-Background-32.png */,
+				6445D56514D9E8E5005F63D0 /* key.png */,
+				642E1AF914CF87AA005D4C7D /* Ripple-iOS-Icon-72x72-32bit-Flat.png */,
+				642E1AF414CF5429005D4C7D /* Reminder_Disabled_Background_Full.png */,
+				642E1AF514CF5429005D4C7D /* Reminder_Disabled_Background_Minimizedl.png */,
+				64CE178814BF8A4600508E2B /* Ripple-iOS-Icon-114x114-32bit-Flat.png */,
+				64CE174E14BF886300508E2B /* airport_missing.png */,
+				64CE174F14BF886300508E2B /* departure-button-not-set-32.png */,
+				64CE175014BF886300508E2B /* departure-button-set-32.png */,
+				64CE175114BF886300508E2B /* departure-button-set-grey.png */,
+				64CE175214BF886300508E2B /* Departure-Slider-Blue-Background-32.png */,
+				64CE175314BF886300508E2B /* Departure-Slider-Button-Grey-32.png */,
+				64CE175414BF886300508E2B /* Departure-Slider-Button-Red-32.png */,
+				64CE175514BF886300508E2B /* Depature-Slider-Grey-Hatch-Background-32.png */,
+				64CE175614BF886300508E2B /* earlyAlert-32.png */,
+				64CE175714BF886300508E2B /* falseAlert-32.png */,
+				64CE175814BF886300508E2B /* footer-32.png */,
+				64CE175914BF886300508E2B /* goodAlert-32.png */,
+				64CE175A14BF886300508E2B /* gradiant-glass-footer-32.png */,
+				64CE175B14BF886300508E2B /* Grey-Banner-Background-32.png */,
+				64CE175C14BF886300508E2B /* header-32.png */,
+				64CE175D14BF886300508E2B /* headset-32.png */,
+				64CE175E14BF886300508E2B /* info-button-32.png */,
+				64CE175F14BF886300508E2B /* lateAlert-32.png */,
+				64CE176014BF886300508E2B /* red-hatch-maximized-32.png */,
+				64CE176114BF886300508E2B /* red-hatch-minimized-32.png */,
+				64CE176214BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat_orig.png */,
+				64CE176314BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat.png */,
+				64CE176414BF886300508E2B /* Rwy-Slider-Blue-Background-32.png */,
+				64CE176514BF886300508E2B /* Rwy-Slider-Grey-Hatch-Background-32.png */,
+				64CE176614BF886300508E2B /* Rwy-Slider-Red-Background-32.png */,
+				64CE176714BF886300508E2B /* Rwy-Slider-Slider-Bright-Red-for-Hold-Short-32.png */,
+				64CE176814BF886300508E2B /* Rwy-Slider-Slider-Deep-Red-32.png */,
+				64CE176914BF886300508E2B /* taxi-keyboard-button-32.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		64D102F114C7258700311432 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				64D102F214C7259C00311432 /* 0.mp3 */,
+				64D102F314C7259C00311432 /* 1.mp3 */,
+				64D102F414C7259C00311432 /* 2.mp3 */,
+				64D102F514C7259C00311432 /* 3.mp3 */,
+				64D102F614C7259C00311432 /* 4.mp3 */,
+				64D102F714C7259C00311432 /* 5.mp3 */,
+				64D102F814C7259C00311432 /* 6.mp3 */,
+				64D102F914C7259C00311432 /* 7.mp3 */,
+				64D102FA14C7259C00311432 /* 8.mp3 */,
+				64D102FB14C7259C00311432 /* 9.mp3 */,
+				64D102FC14C7259C00311432 /* center.mp3 */,
+				64D102FD14C7259C00311432 /* crossingRunway.mp3 */,
+				64D102FE14C7259C00311432 /* holdShortNoClearanceForRunway.mp3 */,
+				64D102FF14C7259C00311432 /* holdShortOfRunway.mp3 */,
+				64D1030014C7259C00311432 /* left.mp3 */,
+				64D1030114C7259C00311432 /* noTakeoffClearance.mp3 */,
+				64D1030214C7259C00311432 /* right.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		64F5AAB414BE0BE5003A7301 = {
+			isa = PBXGroup;
+			children = (
+				646702B215095653009F1CAB /* AudioToolbox.framework */,
+				646702B01509564B009F1CAB /* AudioUnit.framework */,
+				646702AE150955DE009F1CAB /* CoreAudio.framework */,
+				64E74F2514ED86F7006E163A /* MapKit.framework */,
+				644FFB8514C7B3950072F66F /* CFNetwork.framework */,
+				64D1031414C7271600311432 /* AVFoundation.framework */,
+				64F5AAC914BE0BE6003A7301 /* Ripple */,
+				64F5AAEA14BE0BE6003A7301 /* RippleTests */,
+				64F5AAC214BE0BE6003A7301 /* Frameworks */,
+				64F5AAC014BE0BE6003A7301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64F5AAC014BE0BE6003A7301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F5AABF14BE0BE6003A7301 /* Ripple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F5AAC214BE0BE6003A7301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				642D572914BE7F0700AD7D2F /* CoreLocation.framework */,
+				64F5AAC314BE0BE6003A7301 /* UIKit.framework */,
+				64F5AAC514BE0BE6003A7301 /* Foundation.framework */,
+				64F5AAC714BE0BE6003A7301 /* CoreGraphics.framework */,
+				64F5AAE414BE0BE6003A7301 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64F5AAC914BE0BE6003A7301 /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				64CE173B14BF662600508E2B /* Classes */,
+				64F5AACA14BE0BE6003A7301 /* Supporting Files */,
+			);
+			path = Ripple;
+			sourceTree = "<group>";
+		};
+		64F5AACA14BE0BE6003A7301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D102F114C7258700311432 /* audio */,
+				64CE174D14BF884200508E2B /* Images */,
+				64CE173D14BF6F4F00508E2B /* Resources */,
+				64F5AAD514BE0BE6003A7301 /* MainStoryboard_iPhone.storyboard */,
+				6445D56014D9E1E8005F63D0 /* TaxiView.xib */,
+				64F5AACB14BE0BE6003A7301 /* Ripple-Info.plist */,
+				64F5AACC14BE0BE6003A7301 /* InfoPlist.strings */,
+				64F5AACF14BE0BE6003A7301 /* main.m */,
+				64F5AAD114BE0BE6003A7301 /* Ripple-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64F5AAEA14BE0BE6003A7301 /* RippleTests */ = {
+			isa = PBXGroup;
+			children = (
+				64F5AAF014BE0BE6003A7301 /* RippleTests.h */,
+				64F5AAF114BE0BE6003A7301 /* RippleTests.m */,
+				64F5AAEB14BE0BE6003A7301 /* Supporting Files */,
+			);
+			path = RippleTests;
+			sourceTree = "<group>";
+		};
+		64F5AAEB14BE0BE6003A7301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F5AAEC14BE0BE6003A7301 /* RippleTests-Info.plist */,
+				64F5AAED14BE0BE6003A7301 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64F5AAFB14BE6AF9003A7301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				644FFB8714C889040072F66F /* BetaFeedbackView.h */,
+				644FFB8814C889040072F66F /* BetaFeedbackView.m */,
+				64D102EB14C7228400311432 /* AlertView.h */,
+				64D102EC14C7228400311432 /* AlertView.m */,
+				64D102ED14C7228500311432 /* MiniAlertView.h */,
+				64D102EE14C7228600311432 /* MiniAlertView.m */,
+				64D102E214C5CE3400311432 /* RunwaySliderView.h */,
+				64D102E314C5CE3400311432 /* RunwaySliderView.m */,
+				64D102DC14C5CD2400311432 /* HandleView.h */,
+				64D102DD14C5CD2400311432 /* HandleView.m */,
+				64D102DE14C5CD2400311432 /* SlidingDrawerView.h */,
+				64D102DF14C5CD2500311432 /* SlidingDrawerView.m */,
+				64D102D914C4EF3B00311432 /* LoadingView.h */,
+				64D102DA14C4EF3B00311432 /* LoadingView.m */,
+				64D102D614C4ED9B00311432 /* GPSAccuracyView.h */,
+				64D102D714C4ED9C00311432 /* GPSAccuracyView.m */,
+				64D102D314C4E77F00311432 /* SetRunwaySliderView.h */,
+				64D102D414C4E77F00311432 /* SetRunwaySliderView.m */,
+				64D102CF14C4E6D800311432 /* SetDepartureRunwayView.h */,
+				64D102D014C4E6D800311432 /* SetDepartureRunwayView.m */,
+				6415562714C4E564007A3EA7 /* InfoTableViewController.xib */,
+				64A69FCA14C4A1B6000D09D5 /* InfoTableViewController.h */,
+				64A69FCB14C4A1B6000D09D5 /* InfoTableViewController.m */,
+				64A69FC714C49F12000D09D5 /* FooterView.h */,
+				64A69FC814C49F12000D09D5 /* FooterView.m */,
+				64B449B214BF652F0077BFFF /* AirportMapView.h */,
+				64B449B314BF652F0077BFFF /* AirportMapView.m */,
+				64CE174A14BF829000508E2B /* HeaderView.h */,
+				64CE174B14BF829000508E2B /* HeaderView.m */,
+				6445D56214D9E241005F63D0 /* TaxiView.h */,
+				6445D56314D9E241005F63D0 /* TaxiView.m */,
+				64DA85B114DC7BCD00A5B23C /* TaxiDisplay.h */,
+				64DA85B214DC7BCE00A5B23C /* TaxiDisplay.m */,
+				64DA85B414DC87FC00A5B23C /* LargeTaxiDisplay.h */,
+				64DA85B514DC87FD00A5B23C /* LargeTaxiDisplay.m */,
+				64DA85AB14DA226D00A5B23C /* RunwayButtonsView.h */,
+				64DA85AC14DA226D00A5B23C /* RunwayButtonsView.m */,
+				64DA85AE14DC510500A5B23C /* FullRunwayButtonsView.h */,
+				64DA85AF14DC510600A5B23C /* FullRunwayButtonsView.m */,
+				64E74F2114ED8313006E163A /* DebugMapView.h */,
+				64E74F2214ED8313006E163A /* DebugMapView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		64F5AAFF14BE7457003A7301 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64D102E514C604ED00311432 /* AlertManager.h */,
+				64D102E614C604ED00311432 /* AlertManager.m */,
+				64B449B514BF653E0077BFFF /* GPSManager.h */,
+				64B449B614BF653E0077BFFF /* GPSManager.m */,
+				64B449B814BF65560077BFFF /* AppDelegate.h */,
+				64B449B914BF65560077BFFF /* AppDelegate.m */,
+				64B449BA14BF65560077BFFF /* RippleViewController.h */,
+				64B449BB14BF65560077BFFF /* RippleViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		64F5AB0014BE7487003A7301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B449A914BF651B0077BFFF /* Airport.h */,
+				64B449AA14BF651B0077BFFF /* Airport.m */,
+				64B449AB14BF651B0077BFFF /* AirportManager.h */,
+				64B449AC14BF651B0077BFFF /* AirportManager.m */,
+				644FFB7C14C748860072F66F /* AlertRecord.h */,
+				644FFB7D14C748860072F66F /* AlertRecord.m */,
+				64B449AD14BF651B0077BFFF /* Runway.h */,
+				64B449AE14BF651B0077BFFF /* Runway.m */,
+				64D102E814C611C600311432 /* RunwayAlert.h */,
+				64D102E914C611C600311432 /* RunwayAlert.m */,
+				646702AA15092989009F1CAB /* AudioRecorder.h */,
+				646702AB15092989009F1CAB /* AudioRecorder.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F5AABE14BE0BE6003A7301 /* Ripple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F5AAF514BE0BE6003A7301 /* Build configuration list for PBXNativeTarget "Ripple" */;
+			buildPhases = (
+				64F5AABB14BE0BE6003A7301 /* Sources */,
+				64F5AABC14BE0BE6003A7301 /* Frameworks */,
+				64F5AABD14BE0BE6003A7301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ripple;
+			productName = Ripple;
+			productReference = 64F5AABF14BE0BE6003A7301 /* Ripple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F5AAB614BE0BE5003A7301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 64F5AAB914BE0BE5003A7301 /* Build configuration list for PBXProject "Ripple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64F5AAB414BE0BE5003A7301;
+			productRefGroup = 64F5AAC014BE0BE6003A7301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F5AABE14BE0BE6003A7301 /* Ripple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F5AABD14BE0BE6003A7301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F5AACE14BE0BE6003A7301 /* InfoPlist.strings in Resources */,
+				64F5AAD714BE0BE6003A7301 /* MainStoryboard_iPhone.storyboard in Resources */,
+				64CE174214BF6F6100508E2B /* ripple-runways_NE.xml in Resources */,
+				64CE174314BF6F6100508E2B /* ripple-runways_NW.xml in Resources */,
+				64CE174414BF6F6100508E2B /* ripple-runways_SE.xml in Resources */,
+				64CE174514BF6F6100508E2B /* ripple-runways_SW.xml in Resources */,
+				64CE174914BF7D7200508E2B /* IND.gpx in Resources */,
+				64CE176A14BF886300508E2B /* airport_missing.png in Resources */,
+				64CE176B14BF886300508E2B /* departure-button-not-set-32.png in Resources */,
+				64CE176C14BF886300508E2B /* departure-button-set-32.png in Resources */,
+				64CE176D14BF886300508E2B /* departure-button-set-grey.png in Resources */,
+				64CE176E14BF886300508E2B /* Departure-Slider-Blue-Background-32.png in Resources */,
+				64CE176F14BF886300508E2B /* Departure-Slider-Button-Grey-32.png in Resources */,
+				64CE177014BF886300508E2B /* Departure-Slider-Button-Red-32.png in Resources */,
+				64CE177114BF886300508E2B /* Depature-Slider-Grey-Hatch-Background-32.png in Resources */,
+				64CE177214BF886300508E2B /* earlyAlert-32.png in Resources */,
+				64CE177314BF886300508E2B /* falseAlert-32.png in Resources */,
+				64CE177414BF886300508E2B /* footer-32.png in Resources */,
+				64CE177514BF886300508E2B /* goodAlert-32.png in Resources */,
+				64CE177614BF886300508E2B /* gradiant-glass-footer-32.png in Resources */,
+				64CE177714BF886300508E2B /* Grey-Banner-Background-32.png in Resources */,
+				64CE177814BF886300508E2B /* header-32.png in Resources */,
+				64CE177914BF886300508E2B /* headset-32.png in Resources */,
+				64CE177A14BF886300508E2B /* info-button-32.png in Resources */,
+				64CE177B14BF886300508E2B /* lateAlert-32.png in Resources */,
+				64CE177C14BF886300508E2B /* red-hatch-maximized-32.png in Resources */,
+				64CE177D14BF886300508E2B /* red-hatch-minimized-32.png in Resources */,
+				64CE177E14BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat_orig.png in Resources */,
+				64CE177F14BF886300508E2B /* Ripple-iOS-Icon-57x57-32bit-Flat.png in Resources */,
+				64CE178014BF886300508E2B /* Rwy-Slider-Blue-Background-32.png in Resources */,
+				64CE178114BF886300508E2B /* Rwy-Slider-Grey-Hatch-Background-32.png in Resources */,
+				64CE178214BF886300508E2B /* Rwy-Slider-Red-Background-32.png in Resources */,
+				64CE178314BF886300508E2B /* Rwy-Slider-Slider-Bright-Red-for-Hold-Short-32.png in Resources */,
+				64CE178414BF886300508E2B /* Rwy-Slider-Slider-Deep-Red-32.png in Resources */,
+				64CE178514BF886300508E2B /* taxi-keyboard-button-32.png in Resources */,
+				64CE178914BF8A4600508E2B /* Ripple-iOS-Icon-114x114-32bit-Flat.png in Resources */,
+				6415562814C4E564007A3EA7 /* InfoTableViewController.xib in Resources */,
+				64D1030314C7259C00311432 /* 0.mp3 in Resources */,
+				64D1030414C7259C00311432 /* 1.mp3 in Resources */,
+				64D1030514C7259C00311432 /* 2.mp3 in Resources */,
+				64D1030614C7259C00311432 /* 3.mp3 in Resources */,
+				64D1030714C7259C00311432 /* 4.mp3 in Resources */,
+				64D1030814C7259C00311432 /* 5.mp3 in Resources */,
+				64D1030914C7259C00311432 /* 6.mp3 in Resources */,
+				64D1030A14C7259C00311432 /* 7.mp3 in Resources */,
+				64D1030B14C7259C00311432 /* 8.mp3 in Resources */,
+				64D1030C14C7259C00311432 /* 9.mp3 in Resources */,
+				64D1030D14C7259C00311432 /* center.mp3 in Resources */,
+				64D1030E14C7259C00311432 /* crossingRunway.mp3 in Resources */,
+				64D1030F14C7259C00311432 /* holdShortNoClearanceForRunway.mp3 in Resources */,
+				64D1031014C7259C00311432 /* holdShortOfRunway.mp3 in Resources */,
+				64D1031114C7259C00311432 /* left.mp3 in Resources */,
+				64D1031214C7259C00311432 /* noTakeoffClearance.mp3 in Resources */,
+				64D1031314C7259C00311432 /* right.mp3 in Resources */,
+				642E1AF614CF5429005D4C7D /* Reminder_Disabled_Background_Full.png in Resources */,
+				642E1AF714CF5429005D4C7D /* Reminder_Disabled_Background_Minimizedl.png in Resources */,
+				642E1AFA14CF87AA005D4C7D /* Ripple-iOS-Icon-72x72-32bit-Flat.png in Resources */,
+				6445D56114D9E1E8005F63D0 /* TaxiView.xib in Resources */,
+				6445D56614D9E8E5005F63D0 /* key.png in Resources */,
+				64DA85B814DC8B5F00A5B23C /* DarkGrey-Banner-Background-32.png in Resources */,
+				646702B715095EF9009F1CAB /* mic_off.png in Resources */,
+				646702B815095EF9009F1CAB /* mic_on.png in Resources */,
+				646702B915095EF9009F1CAB /* mic_on2.png in Resources */,
+				646702BB15096890009F1CAB /* mic_on1.png in Resources */,
+				64B98F4B152118C60023B2B8 /* mic_on3.png in Resources */,
+				64694B3F157D027500E3BE25 /* Rwy-Slider-Two-State-Blue-Background-32.png in Resources */,
+				64694B40157D027500E3BE25 /* Rwy-Slider-Two-State-Red-Background-32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F5AABB14BE0BE6003A7301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F5AAD014BE0BE6003A7301 /* main.m in Sources */,
+				64B449AF14BF651B0077BFFF /* Airport.m in Sources */,
+				64B449B014BF651B0077BFFF /* AirportManager.m in Sources */,
+				64B449B114BF651B0077BFFF /* Runway.m in Sources */,
+				64B449B414BF652F0077BFFF /* AirportMapView.m in Sources */,
+				64B449B714BF653E0077BFFF /* GPSManager.m in Sources */,
+				64B449BC14BF65560077BFFF /* AppDelegate.m in Sources */,
+				64B449BD14BF65560077BFFF /* RippleViewController.m in Sources */,
+				64CE174C14BF829000508E2B /* HeaderView.m in Sources */,
+				64A69FC914C49F12000D09D5 /* FooterView.m in Sources */,
+				64A69FCC14C4A1B6000D09D5 /* InfoTableViewController.m in Sources */,
+				64D102D114C4E6D800311432 /* SetDepartureRunwayView.m in Sources */,
+				64D102D514C4E77F00311432 /* SetRunwaySliderView.m in Sources */,
+				64D102D814C4ED9C00311432 /* GPSAccuracyView.m in Sources */,
+				64D102DB14C4EF3B00311432 /* LoadingView.m in Sources */,
+				64D102E014C5CD2500311432 /* HandleView.m in Sources */,
+				64D102E114C5CD2500311432 /* SlidingDrawerView.m in Sources */,
+				64D102E414C5CE3400311432 /* RunwaySliderView.m in Sources */,
+				64D102E714C604ED00311432 /* AlertManager.m in Sources */,
+				64D102EA14C611C600311432 /* RunwayAlert.m in Sources */,
+				64D102EF14C7228700311432 /* AlertView.m in Sources */,
+				64D102F014C7228700311432 /* MiniAlertView.m in Sources */,
+				644FFB7E14C748860072F66F /* AlertRecord.m in Sources */,
+				644FFB8914C889040072F66F /* BetaFeedbackView.m in Sources */,
+				6445D56414D9E241005F63D0 /* TaxiView.m in Sources */,
+				64DA85AD14DA226E00A5B23C /* RunwayButtonsView.m in Sources */,
+				64DA85B014DC510700A5B23C /* FullRunwayButtonsView.m in Sources */,
+				64DA85B314DC7BCE00A5B23C /* TaxiDisplay.m in Sources */,
+				64DA85B614DC87FE00A5B23C /* LargeTaxiDisplay.m in Sources */,
+				64E74F2314ED8313006E163A /* DebugMapView.m in Sources */,
+				646702AC15092989009F1CAB /* AudioRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64F5AACC14BE0BE6003A7301 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F5AACD14BE0BE6003A7301 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64F5AAD514BE0BE6003A7301 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F5AAD614BE0BE6003A7301 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		64F5AAED14BE0BE6003A7301 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F5AAEE14BE0BE6003A7301 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64F5AAF314BE0BE6003A7301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kevin Forbes (C6BA8VX6Q9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Forbes (C6BA8VX6Q9)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "4571C591-17AE-4CDE-A321-FB1F38E1A4E3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4571C591-17AE-4CDE-A321-FB1F38E1A4E3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F5AAF414BE0BE6003A7301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kevin Forbes (C6BA8VX6Q9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Forbes (C6BA8VX6Q9)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "4571C591-17AE-4CDE-A321-FB1F38E1A4E3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4571C591-17AE-4CDE-A321-FB1F38E1A4E3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F5AAF614BE0BE6003A7301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ripple/Ripple-Prefix.pch";
+				INFOPLIST_FILE = "Ripple/Ripple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64F5AAF714BE0BE6003A7301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ripple/Ripple-Prefix.pch";
+				INFOPLIST_FILE = "Ripple/Ripple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F5AAB914BE0BE5003A7301 /* Build configuration list for PBXProject "Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F5AAF314BE0BE6003A7301 /* Debug */,
+				64F5AAF414BE0BE6003A7301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F5AAF514BE0BE6003A7301 /* Build configuration list for PBXNativeTarget "Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F5AAF614BE0BE6003A7301 /* Debug */,
+				64F5AAF714BE0BE6003A7301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F5AAB614BE0BE5003A7301 /* Project object */;
+}
