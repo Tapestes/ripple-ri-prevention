@@ -3,7 +3,7 @@ Developed as part of MITRE’s innovation program, the app is designed to addres
 
 The app provides a series of sliders to the pilot - one for each runway at the airport. Each slider has three positions: not set, cleared to hold short, and cleared to cross. The pilot sets each slider to reflect the instructions they have been issued by the pilot. Sliders can be set automatically using speech recognition or manually. In addition, the pilot can optionally set a departure runway.
 
-The application monitors the aircraft’s position and the surface.  If - and only if - it appears the aircraft is not going to hold short as instructed visual and aural reminders are issued by the app.
+The application monitors the aircraft’s position and the surface.  If - and only if - it appears the aircraft is not going to hold short as instructed visual and aural reminders are issued by the app.  Likewise, it the pilot begins a takeoff roll on a runway other than the departure runway, the app advises the pilot they are departing from the wrong runway.
 
 # Overview Video
 https://www.youtube.com/watch?v=lqiAHdt877E
